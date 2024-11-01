@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JRB Park Hotel</title>
+    <meta name="description"
+        content="Bem-vindo ao JRB Park Hotel - Experimente conforto e elegância no coração da cidade!">
+    <meta property="og:title" content="JRB Park Hotel">
+    <meta property="og:description"
+        content="Experimente conforto e elegância no coração da cidade com o JRB Park Hotel. Reserve já sua estadia!">
+    <meta property="og:image" content="./docs/images/logo/JRB_park_hotel_logo_ico.svg">
+    <meta property="og:url" content="https://www.jbrparkhotel.com.br">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="./docs/images/logo/JRB_park_hotel_logo_ico.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</head>
+
+<body class="bg-neutral-800 text-white">
+    <header>
+        <nav class="bg-black fixed top-0 left-0 w-full z-50">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#inicio" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./docs/images/logo/JRB_park_hotel_logo_ico.svg" class="h-8" alt="JRB Park Hotel Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap">JRB Park Hotel</span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a href="https://wa.me/c/556296411372" target="_blank">
+                        <button type="button"
+                            class="text-black bg-yellow-300 hover:bg-yellow-400 hover:text-white focus:ring-4 font-medium rounded-lg text-sm px-4 py-2 text-center">Agendamento</button>
+                    </a>
+                    <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-white hover:bg-yellow-500 hover:text-white  aria-controls=navbar-cta"
+                        aria-expanded="false">
+
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+                        <li>
+                            <a href="#inicio"
+                                class="block py-2 px-3 md:p-0 text-white hover:text-yellow-300 rounded md:bg-transparent">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#acomodacoes"
+                                class="block py-2 px-3 md:p-0 text-white hover:text-yellow-300 rounded md:bg-transparent">Acomodações</a>
+                        </li>
+                        <li>
+                            <a href="#servicos"
+                                class="block py-2 px-3 md:p-0 text-white hover:text-yellow-300 rounded md:bg-transparent">Serviços
+                                & Facilidades</a>
+                        </li>
+                        <li>
+                            <a href="#localizacao"
+                                class="block py-2 px-3 md:p-0 text-white hover:text-yellow-300 rounded md:bg-transparent">Localização</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div id="indicators-carousel" class="relative w-full h-screen" data-carousel="static">
+                <div class="relative w-full h-full overflow-hidden rounded-lg">
+                    <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item="active">
+                        <img src="./docs/images/carousel/entrada.jpg" class="absolute block w-full h-full object-cover"
+                            alt="Entrada">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item="active">
+                        <img src="./docs/images/carousel/entrada_completa.jpg"
+                            class="absolute block w-full h-full object-cover" alt="Entrada completa">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
+                        <img src="./docs/images/carousel/entrada_bancos.jpg"
+                            class="absolute block w-full h-full object-cover" alt="Entrada bancos">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
+                        <img src="./docs/images/carousel/terraco.jpg" class="absolute block w-full h-full object-cover"
+                            alt="Terraço">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
+                        <img src="./docs/images/carousel/rooftop.jpg" class="absolute block w-full h-full object-cover"
+                            alt="Terraço">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
+                        <img src="./docs/images/carousel/rooftop2.jpg" class="absolute block w-full h-full object-cover"
+                            alt="Terraço">
+                    </div>
+                </div>
+
+                <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                        data-carousel-slide-to="4"></button>
+                </div>
+
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Anterior</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Próximo</span>
+                    </span>
+                </button>
+            </div>
+        </section>
+
+        <section id="acomodacoes" class="flex items-center justify-center w-full flex-col">
+            <div class="min-h-[15vh] flex flex-col items-center justify-around w-full">
+                <p class="font-semibold text-yellow-300 my-10 text-3xl">Acomodações</p>
+                <div class="inline-flex items-center justify-center w-full">
+                    <hr class="w-64 h-1 bg-neutral-950 border-0 rounded">
+                    <div class="absolute px-2 py-2 -translate-x-1/2 bg-neutral-950 rounded-xl left-1/2">
+                        <img class="w-4 h-4" src="./docs/images/logo/JRB_park_hotel_logo_ico.svg" fill="currentColor"
+                            viewBox="0 0 18 14"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center flex-row p-10 gap-10 flex-wrap">
+                <div
+                    class="max-w-sm bg-neutral-950 border border-neutral-900 rounded-lg shadow flex flex-col justify-between">
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20individual."
+                            target="_blank">
+                            <img class="rounded-t-lg w-full" src="./docs/images/quartos/quarto_solteiro.jpg"
+                                alt="Quarto econômico individual" />
+                        </a>
+                    </div>
+                    <div class="h-full">
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20individual."
+                                target="_blank">
+                                <h5
+                                    class="mb-2 text-2xl font-bold tracking-tight text-yellow-300 hover:text-yellow-400">
+                                    Econômico individual</h5>
+                            </a>
+                        </div>
+                        <div class="p-5 h-2/4 flex items-start">
+                            <p>Quarto econômico para a família, com uma cama de casal e uma cama de solteiro. Banheiro
+                                compartilhado</p>
+                        </div>
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20individual."
+                                target="_blank"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 hover:text-white hover:bg-yellow-400 rounded-lg focus:ring-4 focus:outline-none">VER
+                                QUARTO
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm bg-neutral-950 border border-neutral-900 rounded-lg shadow flex flex-col justify-between">
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20casal."
+                            target="_blank">
+                            <img class="rounded-t-lg" src="./docs/images/quartos/quarto_casal_economico.jpg"
+                                alt="Quarto econômico casal" />
+                        </a>
+                    </div>
+                    <div class="h-full">
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20casal."
+                                target="_blank">
+                                <h5 class="text-2xl font-bold tracking-tight text-yellow-300 hover:text-yellow-400">
+                                    Econômico casal</h5>
+                            </a>
+                        </div>
+                        <div class="p-5 h-2/4 flex items-start">
+                            <p>Quarto econômico para a família, com uma cama de casal e uma cama de solteiro. Banheiro
+                                compartilhado</p>
+                        </div>
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20casal."
+                                target="_blank"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 hover:text-white hover:bg-yellow-400 rounded-lg focus:ring-4 focus:outline-none">VER
+                                QUARTO
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm bg-neutral-950 border border-neutral-900 rounded-lg shadow flex flex-col justify-between">
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20triplo."
+                            target="_blank">
+                            <img class="rounded-t-lg" src="./docs/images/quartos/quarto_triplo_economico.jpg"
+                                alt="Econômico triplo" />
+                        </a>
+                    </div>
+                    <div class="h-full">
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20triplo."
+                                target="_blank">
+                                <h5
+                                    class="mb-2 text-2xl font-bold tracking-tight text-yellow-300 hover:text-yellow-400">
+                                    Econômico triplo</h5>
+                            </a>
+                        </div>
+                        <div class="p-5 h-2/4 flex items-start">
+                            <p>Quarto econômico para a família, com uma cama de casal e uma cama de solteiro. Banheiro
+                                compartilhado</p>
+                        </div>
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20triplo."
+                                target="_blank"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 hover:text-white hover:bg-yellow-400 rounded-lg focus:ring-4 focus:outline-none">VER
+                                QUARTO
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm bg-neutral-950 border border-neutral-900 rounded-lg shadow flex flex-col justify-between">
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20na%20suite%20luxo."
+                            target="_blank">
+                            <img class="rounded-t-lg" src="./docs/images/quartos/suite_luxo.jpg" alt="Suite luxo" />
+                        </a>
+                    </div>
+                    <div class="h-full">
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20na%20suite%20luxo."
+                                target="_blank">
+                                <h5
+                                    class="mb-2 text-2xl font-bold tracking-tight text-yellow-300 hover:text-yellow-400">
+                                    Suite luxo</h5>
+                            </a>
+                        </div>
+                        <div class="p-5 h-2/4 flex items-start">
+                            <p>Suite luxo para a família.</p>
+                        </div>
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20na%20suite%20luxo."
+                                target="_blank"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 hover:text-white hover:bg-yellow-400 rounded-lg focus:ring-4 focus:outline-none">VER
+                                QUARTO
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm bg-neutral-950 border border-neutral-900 rounded-lg shadow flex flex-col justify-between">
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20na%20suite%20luxo%20com%20terra%C3%A7o."
+                            target="_blank">
+                            <img class="rounded-t-lg" src="./docs/images/quartos/suite_luxo_com_terraco.jpg"
+                                alt="Suite luxo terraço" />
+                        </a>
+                    </div>
+                    <div class="h-full">
+                        <div class="p-5 h-1/4 flex items-start">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20na%20suite%20luxo%20com%20terra%C3%A7o."
+                                target="_blank">
+                                <h5
+                                    class="mb-2 text-2xl font-bold tracking-tight text-yellow-300 hover:text-yellow-400">
+                                    Suite luxo terraço</h5>
+                            </a>
+                        </div>
+                        <div class="p-5 h-2/4 flex items-start">
+                            <p>Suite luxo para a família com acesso ao Rooftop.</p>
+                        </div>
+                        <div class="p-5 h-1/4 flex items-center">
+                            <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20na%20suite%20luxo%20com%20terra%C3%A7o."
+                                target="_blank"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 hover:text-white hover:bg-yellow-400 rounded-lg focus:ring-4 focus:outline-none">VER
+                                QUARTO
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div>
+                <div class="min-h-[15vh] flex flex-col items-center justify-around w-full">
+                    <p class="font-semibold text-yellow-300 my-10 text-3xl">Serviços</p>
+                    <div class="inline-flex items-center justify-center w-full">
+                        <hr class="w-64 h-1 bg-neutral-950 border-0 rounded">
+                        <div class="absolute px-2 py-2 -translate-x-1/2 bg-neutral-950 rounded-xl left-1/2">
+                            <img class="w-4 h-4" src="./docs/images/logo/JRB_park_hotel_logo_ico.svg"
+                                fill="currentColor" viewBox="0 0 18 14"></img>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center content-center items-center pb-10">
+                        <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+                            <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+
+                                <div class="relative lg:row-span-2 overflow-hidden rounded-[2rem] shadow-lg">
+                                    <div class="absolute inset-0 rounded-[2rem] bg-black"></div>
+                                    <div class="relative flex h-full flex-col overflow-hidden rounded-[2rem]">
+                                        <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+                                            <p
+                                                class="mt-2 text-lg font-medium tracking-tight text-yellow-300 max-lg:text-center">
+                                                Rooftop</p>
+                                            <p class="mt-2 max-w-lg text-sm max-lg:text-center">Terraço para
+                                                proporcionar momentos de recreação para nossos hóspedes.</p>
+                                        </div>
+                                        <div class="relative min-h-[30rem] w-full grow">
+                                            <img class="h-full w-full object-cover rounded-[2rem]"
+                                                src="./docs/images/carousel/rooftop.jpg" alt="Terraço">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative max-lg:row-start-1">
+                                    <div class="absolute inset-px rounded-lg bg-black max-lg:rounded-t-[2rem]"></div>
+                                    <div
+                                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                                        <div class="px-4 pt-4 sm:px-10 sm:pt-10">
+                                            <p
+                                                class="mt-2 text-lg font-medium tracking-tight text-yellow-300 max-lg:text-center">
+                                                Café da manhã</p>
+                                            <p class="mt-2 max-w-lg text-sm/6 max-lg:text-center">Café da
+                                                manhã completo (consulte os horários).</p>
+                                        </div>
+                                        <div class="flex flex-1 items-center justify-center">
+                                            <img class="h-full w-full object-cover"
+                                                src="./docs/images/servicos/cafe_da_manha.jpg" alt="Café da Manhã">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]">
+                                    </div>
+                                </div>
+
+                                <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+                                    <div class="absolute inset-px rounded-lg bg-black max-lg:rounded-t-[2rem]"></div>
+                                    <div
+                                        class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                                        <div class="px-4 pt-4 sm:px-10 sm:pt-10">
+                                            <p
+                                                class="mt-2 text-lg font-medium tracking-tight text-yellow-300 max-lg:text-center">
+                                                Lavanderia</p>
+                                            <p class="mt-2 max-w-lg text-sm/6 max-lg:text-center">Lavanderia completa.</p>
+                                        </div>
+                                        <div class="flex flex-1 items-center justify-center">
+                                            <img class="h-full w-full object-cover"
+                                                src="./docs/images/servicos/cafe_da_manha.jpg" alt="Café da Manhã">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]">
+                                    </div>
+                                </div>
+
+                                <div class="relative lg:row-span-2 overflow-hidden rounded-[2rem] shadow-lg">
+                                    <div class="absolute inset-0 rounded-[2rem] bg-black"></div>
+                                    <div class="relative flex h-full flex-col overflow-hidden rounded-[2rem]">
+                                        <div class="relative min-h-[30rem] w-full grow">
+                                            <img class="h-full w-full object-cover rounded-t-[2rem]"
+                                                src="./docs/images/servicos/deck.jpg" alt="Terraço">
+                                        </div>
+
+                                        <div class="px-8 pb-8 pt-3 sm:px-10 sm:pt-5 bg-black text-yellow-300">
+                                            <p class="text-lg font-medium tracking-tight max-lg:text-center">Deck com
+                                                sombrinha</p>
+                                            <p class="mt-2 max-w-lg text-sm max-lg:text-center text-gray-400">Possuímos
+                                                um deck coberto para descanço dos nosso hóspedes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="localizacao">
+            <div class="relative w-full overflow-hidden" style="height: 50vh;">
+                <iframe class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15291.581910806704!2d-49.3296769!3d-16.6320141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef3e9e9586dab%3A0x2206ef0cac7efc76!2sJBR%20PARK%20HOTEL!5e0!3m2!1spt-BR!2sbr!4v1730002803157!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <div data-dial-init class="fixed end-6 bottom-6 z-50">
+                <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20realizar%20minha%20reserva%20no%20JRB%20Park%20Hotel."
+                    target="_blank">
+                    <img src="./docs/images/logo/WhatsApp.svg" class="h-20 me-3" alt="JRB Park Hotel" />
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="https://jbrparkhotel.com.br/" class="flex items-center">
+                        <img src="./docs/images/logo/JRB_park_hotel_logo_ico.svg" class="h-8 me-3"
+                            alt="JRB Park Hotel" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">JRB Park
+                            Hotel</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Acomodações</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20individual."
+                                    target="_blank" class="hover:underline hover:text-yellow-400">Econômico
+                                    individual</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="hover:underline hover:text-yellow-400">Econômico
+                                    triplo</a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=5562996411372&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20reserva%20no%20quarto%20econ%C3%B4mico%20casal."
+                                    target="_blank" class="hover:underline hover:text-yellow-400">Econômico casal</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="hover:underline hover:text-yellow-400">Suite luxo</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="hover:underline hover:text-yellow-400">Suite Luxo com
+                                    terraço</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Serviços &
+                            facilidades</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="" class="hover:underline hover:text-yellow-400">Rooftop</a>
+                            </li>
+                            <li>
+                                <a href="" class="hover:underline hover:text-yellow-400">Café da manhã</a>
+                            </li>
+                            <li>
+                                <a href="" class="hover:underline hover:text-yellow-400">Lavanderia</a>
+                            </li>
+                            <li>
+                                <a href="" class="hover:underline hover:text-yellow-400">Deck com sombrinha</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Contatos</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=5562996411372" target="_blank"
+                                    rel="noopener noreferrer" class="hover:underline hover:text-yellow-400">WhatsApp</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/jbrparkhotel/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="hover:underline hover:text-yellow-400">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2024 ©<a
+                        href="https://marcospaulosilva.com.br/" class="hover:underline">Marcos Paulo Silva</a>. Todos os
+                    direitos reservados.
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
