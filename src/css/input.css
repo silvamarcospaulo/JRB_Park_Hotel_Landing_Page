@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 @import 'flowbite';
-
-"scripts": {
-    "build": "npx tailwindcss -i ./styles/main.css -o ./public/output.css --minify"
-  }
